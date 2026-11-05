@@ -1,0 +1,19 @@
+/* 
+* {
+    color:deeppink !important;
+    font-family: "Nunito Sans", sans-serif !important; 
+}
+*/
+
+p {
+    color: red;
+}
+
+
+.blue-text {
+    color: blue;
+}
+
+#green-text {
+    color: green;
+}
