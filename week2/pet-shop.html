@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pet Shop</title>
+
+
+        <!-- Meta Data -->
+         <meta name="description" content="Pet Shop">
+        <meta name="keywords" content="Pet Shop, Pets, Animals">
+        <meta name="author" content="Nirmal">
+
+        <!--open graph meta tags for social media sharing - for popups on whatsapp/meta --> 
+        <meta property="og:title" content="Pet Shop">
+        <meta property="og:description" content="Pet Shop">
+        
+        <!-- Icons -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">   
+
+         <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,115.1,200..1000,525;1,6..12,115.1,200..1000,525&family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+        
+        <style>
+            * {
+                font-family: 'Nunito Sans', sans-serif;
+            }
+
+            body{
+                background-color: #f9f6e6;
+            }
+
+            nav {
+                background-color: #ccd5ae;  
+            }
+
+            footer {
+                text-align: center;
+            }
+
+            .nav-links {
+                align-items: center;
+                text-align: center;
+            }
+
+
+            .alertBox {
+                background-color: #4ee4ff;
+                color: #000;
+                width:70%;
+                margin: 0 auto;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .imageDescription{
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            #heroSection {
+                background-color: #fefae0;
+            }
+
+
+            #descriptionSection {
+                background-color: #e9edc9;
+            }
+
+
+            
+
+        </style>
+        
+    </head>
+    <body>
+            <nav>
+                <li class="nav-links">
+                    <a href="index.html">Home</a> |
+                    <a href="#descriptionSection">About</a> |
+                    <a>Contact</a>
+                </li>
+                <hr>
+            </nav>
+
+
+        <!-- Hero section -->
+        <section id="heroSection">
+            <div class="image-container">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQErgB4KAgrXHKpi5aEgzPiI8FRHnWjw8eXCL6etXuPhKOvj6qFKiFFFeM&s=10"> 
+
+            </div>
+
+            <div class="image-description">
+                <p>We offer a wide variety of pets and pet supplies to meet your needs. From adorable puppies and kittens to exotic birds and reptiles, we have something for every animal lover.</p>
+                <a href="https://www.example.com/shop" class="shop-now-button">Shop Now</a> 
+                <a href="https://www.example.com/shop" class="shop-now-button">Shop Now</a>
+            </div>
+           
+
+        </section>
+        <!-- Hero section -->
+
+
+        <!-- Description section -->
+        <section id="descriptionSection">
+
+            <h3>Animals you can adopt</h3>
+            <ul>
+                <li>Dogs</li>
+                <li>Cats</li>
+                <li>Birds</li>
+                <li>Reptiles</li>
+                <li>Small mammals</li>
+            </ul>
+
+            <br>
+            <ol>
+                <li>Dogs</li>
+                <li>Cats</li>
+                <li>Birds</li>
+                <li>Reptiles</li>
+                <li>Small mammals</li>
+            </ol>
+
+            
+
+        </section>
+        <!-- Description section -->
+
+         <!-- Forms section -->
+        <section>
+
+            <h3>Adoption Form</h3>
+
+
+            <form action="" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label>Marital Status:</label>
+                <input type="radio" id="single" name="maritalStatus" value="single">
+                <label for="single">Single</label>
+                <input type="radio" id="married" name="maritalStatus" value="married">
+                <label for="married">Married</label><br><br>
+
+                <label>
+                    <input type="checkbox" id="terms" name="terms" value="agree" required>
+                    I agree to the terms and conditions
+                </label><br><br>
+
+                <label for="pet">Select a pet:</label>
+                <select id="pet" name="pet">
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Bird</option>
+                    <option value="reptile">Reptile</option>
+                    <option value="small-mammal">Small Mammal</option>
+                </select><br><br>
+
+
+                <label>Upload a picture of your animal</label>
+                <input type="file" id="animalPicture" name="animalPicture" accept="image/png/jpeg"><br><br>
+
+                <input type="submit" value="Submit">
+                
+            </form>
+            
+        </section>
+
+
+        <footer>
+            Copyright &copy; 2026 Pet Shop. All rights reserved.
+        </footer>
+        
+    </body> 
+</html>
